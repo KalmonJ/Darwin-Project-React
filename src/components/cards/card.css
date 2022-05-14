@@ -1,0 +1,49 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+  margin-right: 32px;
+  margin-top: 64px;
+}
+
+.container__card{
+  width: auto;
+  display: flex;
+  margin-top: 64px;
+  margin-left: 166px;
+}
+
+.title__card{
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 46px;
+  margin-bottom: 8px;
+}
+
+.description__card{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) {
+  
+}
+
+@media screen and (max-width: 992px) {
+  .card{
+    width: 100%;
+  }
+
+  .card:nth-child(2){
+    text-align: right;
+  }
+
+  .container__card{
+    flex-direction: column;
+    margin-left: unset;
+  }
+
+  
+}

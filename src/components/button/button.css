@@ -1,0 +1,24 @@
+.button {
+  color: #FCFCFC;
+  background: linear-gradient(100.38deg, #FF5D8E 13.28%, #B251FF 99.98%);
+  border: none;
+  margin-right: 32px;
+  font-size: 24px;
+  padding: 8px 16px 8px 16px;
+  cursor: pointer;
+  transition: box-shadow 500ms ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 56px #FF5D8E;
+}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+
+  .button {
+    font-size: 16px;
+  }
+
+}
