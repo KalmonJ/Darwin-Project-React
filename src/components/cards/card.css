@@ -1,4 +1,4 @@
-.card{
+.card {
   display: flex;
   flex-direction: column;
   width: 27%;
@@ -6,14 +6,14 @@
   margin-top: 64px;
 }
 
-.container__card{
+.container__card {
   width: auto;
   display: flex;
   margin-top: 64px;
   margin-left: 166px;
 }
 
-.title__card{
+.title__card {
   color: #FFFFFF;
   font-size: 32px;
   font-weight: 700;
@@ -21,29 +21,37 @@
   margin-bottom: 8px;
 }
 
-.description__card{
+.description__card {
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 400;
 }
 
 @media screen and (max-width: 1200px) {
-  
+  .title__card {
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width: 992px) {
-  .card{
+  .card {
     width: 100%;
   }
 
-  .card:nth-child(2){
+  .card:nth-child(2) {
     text-align: right;
   }
 
-  .container__card{
+  .container__card {
     flex-direction: column;
     margin-left: unset;
   }
 
-  
+  .title__card {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+
 }

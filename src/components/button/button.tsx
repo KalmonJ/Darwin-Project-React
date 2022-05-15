@@ -1,6 +1,10 @@
 import "./button.css";
 
-function ButtonComponent(props: any) {
+type propsButtom = {
+  func: (bool: boolean) => void;
+};
+
+function ButtonComponent(props: propsButtom) {
   return (
     <button
       onClick={() => {

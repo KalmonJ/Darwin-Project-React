@@ -56,7 +56,7 @@
 .main__logo {
   width: 349px;
   height: 457px;
-  margin-right: 127px;
+  margin-right: 150px;
 }
 
 .main__title {
@@ -155,10 +155,6 @@
     font-size: 30px;
   }
 
-  .title__card {
-    font-size: 20px;
-  }
-
   .main__description {
     font-size: 16px;
   }
@@ -169,7 +165,7 @@
 }
 
 @media screen and (max-height: 667px) {
-  .container__suit{
+  .container__suit {
     margin-top: 10rem;
   }
 }
@@ -182,6 +178,10 @@
 
   .main__title {
     text-align: center;
+  }
+
+  .title__suit-content {
+    line-height: 40px;
   }
 
   .main__content {
@@ -225,10 +225,12 @@
     margin-left: 110px;
   }
 
+  .main__description {
+    line-height: 24px;
+  }
+
   .know__More--button {
     font-size: 16px;
   }
-
-
 
 }

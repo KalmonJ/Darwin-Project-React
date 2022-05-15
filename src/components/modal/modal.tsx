@@ -1,7 +1,13 @@
 import FormComponent from "../form/form";
 import "./modal.css";
 
-function ModalComponent(props: any) {
+type propsModal = {
+  close: () => void;
+  state: boolean | undefined;
+  func: (state: boolean) => void;
+};
+
+function ModalComponent(props: propsModal) {
   return (
     <div className="container-bg-form">
       <div className="bg-form" onClick={() => props.close()}></div>

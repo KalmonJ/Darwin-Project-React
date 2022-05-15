@@ -2,7 +2,11 @@ import { useState } from "react";
 import NotificationComponent from "../notification/notification";
 import "./form.css";
 
-function FormComponent(props: any) {
+type propsForm = {
+  modalClose: () => void;
+};
+
+function FormComponent(props: propsForm) {
   const [notificationState, setNotificationState] = useState(false);
   const [formStates, setFormStates] = useState({
     name: "",
